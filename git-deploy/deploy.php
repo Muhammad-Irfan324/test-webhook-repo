@@ -1,6 +1,6 @@
 <?php
 define("TOKEN", "pnlsirosizrhdyyraqrdprwjbpsvtyevdixpsefuzwfcyzklfeplskkohrlafzjnmnsstleitnjjlwtzfotaaynxdojfgltscjszduepyujgursazrriyfjqiyqdslqu");                                       // The secret token to add as a GitHub or GitLab secret, or otherwise as https://www.example.com/?token=secret-token
-define("git@github.com:Muhammad-Irfan324/test-webhook-repo.git"); // The SSH URL to your repository
+define("REMOTE_REPOSITORY", "git@github.com:Muhammad-Irfan324/test-webhook-repo.git"); // The SSH URL to your repository
 define("DIR", "/home/irfantahir/work/test-webhook-repo/");                          // The path to your repostiroy; this must begin with a forward slash (/)
 define("BRANCH", "refs/heads/master");                                 // The branch route
 define("LOGFILE", "deploy.log");                                       // The name of the file you want to log to.
